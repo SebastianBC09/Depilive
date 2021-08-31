@@ -65,13 +65,6 @@ body {
   background-image: url("../images/landing.png");
 }
 
-.landing__content--heading {
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 45px;
-  color: #ee4c7c;
-}
-
 .landing__content--title {
   position: absolute;
   width: 300px;
@@ -83,18 +76,14 @@ body {
 
 .landing__content--heading {
   color: #ee4c7c;
-  font-weight: normal;
   font-size: 30px;
   line-height: 45px;
-  margin: 0;
 }
 
 .landing__content--mid {
   color: #2e2b2b;
-  font-weight: normal;
   font-size: 30px;
   line-height: 45px;
-  margin: 0;
 }
 
 .landing__content--footer {
@@ -102,7 +91,6 @@ body {
   font-weight: 500;
   font-size: 36px;
   line-height: 54px;
-  margin: 0;
 }
 
 .landing__content--info {
@@ -111,10 +99,10 @@ body {
   height: 78px;
   left: 160px;
   top: 369px;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
   color: #2e2b2b;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
   margin: 0;
 }
 
