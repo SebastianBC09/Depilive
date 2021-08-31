@@ -61,8 +61,15 @@ body {
 
 .landing-container {
   height: 530px;
-  border: 1px solid black;
-  background-color: #003477;
+  width: 100%;
+  background-image: url("../images/landing.png");
+}
+
+.landing__content--heading {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ee4c7c;
 }
 
 .landing__content--title {
@@ -71,9 +78,31 @@ body {
   height: 90px;
   left: 157px;
   top: 266px;
+  margin: 0;
+}
+
+.landing__content--heading {
+  color: #ee4c7c;
+  font-weight: normal;
   font-size: 30px;
   line-height: 45px;
-  border: 1px solid black;
+  margin: 0;
+}
+
+.landing__content--mid {
+  color: #2e2b2b;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+  margin: 0;
+}
+
+.landing__content--footer {
+  color: #ee4c7c;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  margin: 0;
 }
 
 .landing__content--info {
@@ -86,7 +115,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #2e2b2b;
-  border: 1px solid black;
+  margin: 0;
 }
 
 /* Services */
