@@ -161,6 +161,17 @@ body {
   padding: 93px 160px 123px;
 }
 
+.services__background--circle {
+  position: absolute;
+  left: 568px;
+  top: 737px;
+  width: 28px;
+  height: 28px;
+  background-color: #e19bb0;
+  border-radius: 50px;
+  z-index: 0;
+}
+
 .services__title {
   grid-row: 1/2;
   color: #2e2b2b;
@@ -169,6 +180,7 @@ body {
   line-height: 45px;
   text-align: center;
   margin: 0 0 15px;
+  z-index: 1;
 }
 
 .services__info {
@@ -193,11 +205,24 @@ body {
   align-items: center;
 }
 
+.services__background {
+  position: absolute;
+  left: 138px;
+  top: 1235px;
+  height: 241px;
+  width: 165px;
+  border: 5px solid #ee4c7c;
+  box-sizing: border-box;
+  z-index: 0;
+}
+
 .services__card {
   width: 346px;
   height: 549px;
+  background-color: #ffffff;
   border-radius: 1px;
   box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.07);
+  z-index: 1;
 }
 
 .services__image {
